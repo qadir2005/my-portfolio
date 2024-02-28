@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Qadir - Portfolio</title>
+    <link rel="" href="">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- -------------Structure of Header------------ -->
+    <div id="header">
+        <div class="container navbar">
+            <nav>
+                <h1><span>A.</span>Qadir </h1>
+                <ul id="sidemenu">
+                    <li><a href="#header" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <div class="header-text navbar">
+            <p>Web Designer/Developer</p>
+            <h1>Hi, I'm <span>Abdul Qadir</span><br> From Karachi / Pakistan.</h1>
+        </div>
+    </div>
+    <!-- ---------About--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="headingss">About Me</h1>
+                    <p class="para-2">I am a passionate and dedicated web designer and developer, equipped with a strong
+                        foundation in both design principles and technical skills. My journey into the world of web
+                        development began with formal education at SMIT, where I cultivated a deep understanding of the
+                        latest industry trends and technologies. Through hands-on experience and continuous learning, I
+                        have honed my ability to craft visually appealing and user-friendly websites that not only meet
+                        client needs but also exceed expectations. With a keen eye for detail and a commitment to
+                        delivering high-quality work, I thrive in environments that challenge me to innovate and push
+                        boundaries. My goal is to continue evolving as a professional, contributing my expertise to
+                        impactful projects and making a lasting mark in the ever-evolving digital landscape.
+
+
+
+
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Expereience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents contents-skills" id="skills">
+                        <ul>
+                            <li><span>Web Designer</span><br> Web Developer & Designer.</li>
+                            <li><span>Logo / Thumbnils</span><br> Logo maker & Thumbnils Designer.</li>
+                            <li><span>Ms Office</span><br> Expertice in Word, Excel & PowerPoint. </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents contents-experience" id="experience">
+                        <ul>
+                            <li><span>04 Years</span><br> 04 Years of Expereience in Microsoft Office. </li>
+                            <li><span>01 Year</span><br> 01 Year of Expereience in Web Development.</li>
+                            <li><span>02 Month</span><br> 02 Month of Expereience in Adobe Photoshop.</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents contents-education" id="education">
+                        <ul>
+                            <li><span>2020 - 2020</span><br> Course of "Microsoft Office from IQ Pass Education" </li>
+                            <li><span> 2022 - 2023</span><br> Matraculaiton with Computer Science from (Sindh Board).
+                            </li>
+                            <li><span>2023 - 2024</span><br> Now, Studying in Intermedite from Jamia Milia, Karachi. And
+                                learning Web Development from SMIT.
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------Services--------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="headingss">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2 style="font-size: 25px; font-weight: 700;">Web Development</h2>
+                    <p>In 2023, I embarked on a journey to delve into web development, harnessing the power of HTML and
+                        CSS. Through dedication and exploration, I've acquired a proficient understanding of these
+                        fundamental languages, paving the way for my growth in the digital realm.
+                    </p>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-brush"></i>
+
+                    <h2>Web Design</h2>
+                    <p>In 2023, I delved into the realm of web design, immersing myself in the intricacies of HTML and
+                        CSS. Through diligent learning and practice, I gained proficiency in crafting captivating web
+                        pages, unlocking the power to breathe life into digital landscapes.</p>
+
+                </div>
+                <div>
+                    <i class="fa-brands fa-microsoft"></i>
+                    <i class="fa-solid fa-file-excel"></i>
+                    <h2>Ms Office</h2>
+                    <p>"I have acquired proficiency in Microsoft Office suite during my learning journey in 2020,
+                        mastering essential tools like Word, Excel, and PowerPoint."</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------Portfolio------------------ -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="headingss">My Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./work-1.webp">
+                    <div class="layer">
+                        <h3>Front-end Design</h3>
+                        <p>Khoula Curtain </p> <br>
+                        <span><a href="https://khoula-curtian.netlify.app/" target="_blank"><i
+                                    class="fa-solid fa-eye"></i></a></span>
+                        <span><a href="https://khoula-curtian.netlify.app/" target="_blank  ">View</a></span>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./work-2.PNG">
+                    <div class="layer">
+                        <h3>Front-end Design</h3>
+                        <p>CLI GitHub Clone </p> <br>
+                        <span><a href="https://cli-github-qadir-clone.netlify.app/" target="_blank"><i
+                                    class="fa-solid fa-eye"></i></a></span>
+                        <span><a href="https://cli-github-qadir-clone.netlify.app/" target="_blank  ">View</a></span>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./work-3.PNG">
+                    <div class="layer">
+                        <h3>Front-end Design</h3>
+                        <p>Flavorz Burgers </p> <br>
+                        <span><a href="https://aq-burger.netlify.app/" target="_blank"><i
+                                    class="fa-solid fa-eye"></i></a></span>
+                        <span><a href="https://aq-burger.netlify.app/" target="_blank  ">View</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container btns">
+        <a href="#" class="btn">Top</a>
+    </div>
+
+    <!-- -----------Contact--------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="headingss">Contact Me</h1>
+                    <p>email : qadir20005@gmail.com</p>
+                    <p>0346-4138581</p>
+                    <div class="social-media">
+                        <!-- <a href="mailto:qadir20005@gmail.com?subject=Subject%20of%20Email&body=Body%20of%20Email" target="_blank"><i class="fa-solid fa-envelope"></i></a> -->
+                        <a href="https://wa.me/03194907694" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.facebook.com/search/top/?q=Abdul%20Qadir.05" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/abdul_qadir.05/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@abdul_qadir.05" target="_blank"><i
+                                class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                    <a href="./Document.txt" class="button" download>Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="be132e6c-b78a-4644-b3e6-0507b5dd3205">
+
+                        <input type="text" name="name" placeholder="Your Name" required><br>
+                        <input type="email" name="email" placeholder="Your Email" required><br>
+                        <input type="number" name="phone" placeholder="phone no" required><br>
+                        <textarea name="text" cols="30" rows="5" required> Write your Message</textarea>
+                        <button type="submit">Sumbit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>ALL <i class="fa-regular fa-copyright"></i> copyright reserved. | Developed by <span>ABDUL QADIR</span> </p>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("contents-skills")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("contents-skills")
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0"
+            sidemenu.style.display = "block"
+        }
+        function closemenu() {
+            sidemenu.style.right = "-100%"
+            sidemenu.style.display = "none"
+        }
+    </script>
+</body>
+
+</html>
